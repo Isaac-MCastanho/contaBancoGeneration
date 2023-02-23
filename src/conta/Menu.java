@@ -16,10 +16,13 @@ public class Menu {
     	
     	
     	
-    	Conta c1 = new Conta(1,123,1,"Isaac",3000.0f);
+    	ContaCorrente c1 = new ContaCorrente(1,123,1,"Isaac",3000.0f,1000f);
     	
     	c1.visualizar();
     	
+    	ContaCorrente c2 = new ContaCorrente(1,123,1,"Isaac",3000.0f,1000f);
+    	
+    	c1.visualizar();
     	
     	int opcao, numero, agencia, tipo, aniversario, numeroDestino;
 		float saldo, limite, valor;
