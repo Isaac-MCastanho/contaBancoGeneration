@@ -7,6 +7,7 @@ public interface ContaRepository {
 	public void listarTodas();
 	public void cadastrar(Conta conta);
 	public void atualizar(Conta conta);
+	public void deletar(int numero);
 	
 	
 	public void sacar(int numero, float valor);
