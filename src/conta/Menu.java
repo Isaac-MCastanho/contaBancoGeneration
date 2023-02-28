@@ -184,7 +184,7 @@ System.out.println("\nCriar Contas\n");
 				System.out.println("Valor do Saque: ");
 				valor = scan.nextFloat();
 				
-				// Chamada para o Método Sacar
+				contas.sacar(numero, valor);
 				
 				keyPress();
 				break;
@@ -197,7 +197,7 @@ System.out.println("\nCriar Contas\n");
 				System.out.println("Valor do Depósito: ");
 				valor = scan.nextFloat();
 				
-				// Chamada para o Método Depositar
+				contas.depositar(numero, valor);
 
 				keyPress();
 				break;
